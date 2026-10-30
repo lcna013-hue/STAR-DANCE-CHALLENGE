@@ -1,5 +1,3 @@
-
-
 .container_title { 
     position: relative;
     width:100%;
@@ -7,17 +5,20 @@
     font-style: normal;
     font-weight: 500;
     color: #ffdedc;
+    z-index: -1;
 }
 .image1{
     height:100%;
     width:100%;
-    
+    z-index: 0;
 }
+
 .title1 {
     position: absolute;
     bottom: 71%;
     left: 40%;
     font-size: 200px;
+    z-index: 0;
 }
 
 .title2 {
@@ -25,6 +26,7 @@
     bottom: 60%;
     left: 45%;
     font-size: 200px;
+    z-index: 0;
 }
 
 .title3 {
@@ -32,6 +34,7 @@
     bottom: 58%;
     left: 61%;
     font-size: 130px;
+    z-index: 0;
 }
 
 .title4 {
@@ -41,6 +44,237 @@
     font-size: 250px;
 }
 
+.image2{
+    position: relative;
+    height: 103%;
+    width: 100%;
+    z-index: -3;
+}
+
+.heading_save {
+    font-family: "luxurious-script", cursive;
+    font-style: normal;
+    font-weight: 200;
+    color: #ffdedc;
+    position: absolute;
+    top: 96%;
+    left: 3%;
+    font-size: 160px;
+    z-index: -1;
+}
+.heading_beet{
+    font-family: "luxurious-script", cursive;
+    font-style: normal;
+    font-weight: 200;
+    color: #ffdedc;
+    position: absolute;
+    top: 105%;
+    left: 2%;
+    font-size: 160px;
+    z-index: -1;
+}
+
+.heading_sort{
+    font-family: "luxurious-script", cursive;
+    font-style: normal;
+    font-weight: 200;
+    color: #ffdedc;
+    position: absolute;
+    top: 114%;
+    left: 1%;
+    font-size: 160px;
+    z-index: -1;
+}
+
+
+.draggable {
+    cursor: grab;
+}
+
+
+.beet1 {
+    opacity: 85%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(20deg);
+}
+
+.beet2 {
+    opacity: 85%;
+    cursor: grabbing;
+    z-index: 8;
+    height: 40px;
+    transform: rotate(-30deg);
+}
+
+.beet3 {
+    opacity: 95%;
+    left: 10%; 
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(70deg);
+}
+
+.beet4 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 45px;
+    transform: rotate(34deg);
+}
+
+.beet15 {
+    opacity: 75%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(-110deg);
+}
+
+.beet5 {
+    opacity: 83%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(-20deg);
+}
+
+.beet6 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(-50deg);
+}
+.beet7 {
+    opacity: 89%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+    transform: rotate(28deg);
+}
+
+.beet8 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+.beet9 {
+    opacity: 80%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+
+.beet10 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+.beet8 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+.beet9 {
+    opacity: 80%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+
+.beet10 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+.beet11 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+.beet12 {
+    opacity: 80%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 40px;
+}
+
+.beet13 {
+    opacity: 95%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
+
+.beet14 {
+    opacity: 80%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 50px;
+}
+
+
+
+
+.butter1 {
+    opacity: 65%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+    transform: rotate(30deg);
+}
+.butter2 {
+    opacity: 50%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
+.butter3 {
+    opacity: 60%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+    transform: rotate(-40deg)
+}
+.butter4 {
+    opacity: 45%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
+.butter5 {
+    opacity: 70%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+    transform: rotate(28deg);
+}
+.butter6 {
+    opacity: 60%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
+.butter7 {
+    opacity: 60%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
+.butter8 {
+    opacity: 60%;
+    cursor: grabbing;
+    z-index: 9;
+    height: 60px;
+}
 
 
 body {
@@ -48,8 +282,9 @@ body {
     font-family:consolas;
     letter-spacing:1px;
     font-size: 14px;
-    background: linear-gradient(317deg,rgba(56, 199, 255, 1) 0%, rgba(181, 255, 211, 1) 50%, rgba(194, 194, 194, 1) 100%);
+    background: rgb(2, 49, 30);
 }
+
 a {
 color: #38c7ff;
     font-family:consolas;
@@ -151,7 +386,7 @@ margin: 10px;
 }
  
 .Diamondbutton{
-    background:url('flower_stem1\ \(1\).png') no-repeat;
+    background:url('flower_stem1.png') no-repeat;
     background-size: cover;
     cursor:pointer;
     height: 70px;
